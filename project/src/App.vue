@@ -1,18 +1,17 @@
 <template>
-<div id="app">
-  
-  <EmployeeList />
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <listview />
 </template>
 
 <script>
-import EmployeeList from './components/EmployeeList';
+
+import listview from './components/listview.vue'
 export default {
   name: 'App',
   components: {
-   EmployeeList
+    listview,
   }
-};
+}
 </script>
 
 <style>
